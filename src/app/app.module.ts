@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
 import { DashBoardComponent } from './Components/dash-board/dash-board.component';
+import { MetricComponent } from './Components/metric/metric.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    DashBoardComponent
+    DashBoardComponent,
+    MetricComponent
   ],
   imports: [
     BrowserModule,
